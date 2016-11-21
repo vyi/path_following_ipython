@@ -17,7 +17,7 @@ We wish to follow the x-axis (i.e. straight line) thus..
 This simplifies the frenet frame to  
 $$\dot{s} = [u_1~\cos\theta_e -l_1u_2\sin\theta_e]$$
 $$\dot{d} = (u_1)\sin\theta_e  + l_1u_2\cos\theta_e~~$$
-$$\dot{\theta_e} = u_2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$$  
+$$\dot{\theta_e} = u_2$$  
 
 Now suitable choosing the variables  
 $$x_{pos}=s $$
@@ -29,8 +29,8 @@ We get the new model for our robot(unicycle)
 Writing decoupled form
 $$
 \dot x_p = [u_1~\cos\theta_e - l_1u_2\sin\theta_e]$$
-$$\dot y_p  = (u_1)\sin\theta_e + l_1u_2\cos\theta_e~~$$
-$$\dot{\theta} = u_2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$$   
+$$\dot y_p  = (u_1)\sin\theta_e + l_1u_2\cos\theta_e$$
+$$\dot{\theta} = u_2$$   
 
 This further reduces to  
 $$ \left| \begin{array}{c}

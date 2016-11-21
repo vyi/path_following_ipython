@@ -5,8 +5,8 @@ Tracking a reference trajectory (another vehicle)
 
 
 The first robot is fed with a predetermined input 
-     $$u_{11} = 10 ~m/s ~~~~~~~~\text{velocity}$$  
-     $$u_{12} = sin(2 \times \pi \times 0.001 \times t) ~rad/s ~~~~~~~~\text{angular velocity}$$  
+     $$u_{11} = 10 ~m/s \text{velocity}$$  
+     $$u_{12} = sin(2 \times \pi \times 0.001 \times t) ~rad/s ~ ~ \text{angular velocity}$$  
      
 
 
@@ -122,7 +122,7 @@ plt.show()
 
 
 
-![png](output_3_1_.png)
+![png](output_3_1.png)
 
 
 

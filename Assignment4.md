@@ -4,8 +4,8 @@ Objective:  Follow the $x$-axis using a proportional controller (Frenet frame pa
 
 
 $$\dot{s} = \frac{1}{1-d~C(s)} [(u_1-l_2~u_2)\cos\theta_e ~-~l_1~u_2~\sin\theta_e]$$  
- $$\dot{d} = (u_1 - l_2~u_2)\sin\theta_e ~+~ l_1~u_2~\cos\theta_e~~~~~~~~~~~~~~~~~~~~~$$  
- $$\dot{\theta_e} = u_2-\dot(s)~C(s)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$$  
+ $$\dot{d} = (u_1 - l_2~u_2)\sin\theta_e ~+~ l_1~u_2~\cos\theta_e$$  
+ $$\dot{\theta_e} = u_2-\dot(s)~C(s)$$  
 
 
 We wish to follow the x-axis (i.e. straight line) thus..
